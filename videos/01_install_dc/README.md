@@ -6,4 +6,6 @@
     change DNS setting
 
 2. Install Windows AD feature:
-    PS> install-windowsfeature AD-Domain-Services -includemanagementtools
+    install-windowsfeature AD-Domain-Services -includemanagementtools
+    Import-Module ADDSDeployment
+    Install-ADDSForest

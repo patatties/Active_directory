@@ -5,9 +5,9 @@
     - regedit
     - add regkeys:
         [HKEY_LOCAL_MACHINE\SYSTEM\Setup\LabConfig]
-            "BypassTPMCheck"=dword:00000001
-            "BypassSecureBootCheck"=dword:00000001
-            "BypassRAMCheck"=dword:00000001
+            - "BypassTPMCheck"=dword:00000001
+            - "BypassSecureBootCheck"=dword:00000001
+            - "BypassRAMCheck"=dword:00000001
 
 
 2. Server Windows XX
