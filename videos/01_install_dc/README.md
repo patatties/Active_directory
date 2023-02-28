@@ -1,11 +1,11 @@
 # 01 installing the domain controller
 
 1. use 'sconfig' to:
-    change hostname
-    change ip address to static
-    change DNS setting
+    - change hostname
+    - change ip address to static
+    - change DNS setting
 
 2. Install Windows AD feature:
-    install-windowsfeature AD-Domain-Services -includemanagementtools
-    Import-Module ADDSDeployment
-    Install-ADDSForest
+    - install-windowsfeature AD-Domain-Services -includemanagementtools
+    - Import-Module ADDSDeployment
+    - Install-ADDSForest
